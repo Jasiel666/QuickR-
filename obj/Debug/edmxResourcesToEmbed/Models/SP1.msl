@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CompanyModel_SPStoreContainer" CdmEntityContainer="spEntities1">
+    <FunctionImportMapping FunctionImportName="sp_employee_delete" FunctionName="CompanyModel_SP.Store.sp_employee_delete" />
+    <FunctionImportMapping FunctionImportName="sp_employee_register" FunctionName="CompanyModel_SP.Store.sp_employee_register" />
+  </EntityContainerMapping>
+</Mapping>

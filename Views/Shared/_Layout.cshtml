@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <style>
+        .botonIngresar:hover {
+            opacity: 0.8;
+        }
+        .botonRegistrar:hover{
+            opacity: 0.8;
+        }
+    </style>
+  
+        <div class="navbar navbar-fixed-top" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); border: none; background-color: #ffffff">
+
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <img src="~/Content/Images/LogoQ.png" style="height: 80px; width: 88px" />
+                </div>
+            </div>
+        </div>
+
+  
+    
+    <div>
+        @RenderBody()
+        <hr />
+        <footer style="font-family: 'Montserrat';">
+            <p>&copy; @DateTime.Now.Year QuickR</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

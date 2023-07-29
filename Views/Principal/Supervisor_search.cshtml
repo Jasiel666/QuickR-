@@ -1,0 +1,54 @@
+﻿@model List<AplicacionPoe.Models.supervisorO>
+@{
+    ViewBag.Title = "Supervisor_search";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+<div class="mt-5 align-content-center justify-content-center">
+    <table class="table table-striped table-hover mt-3 rounded rounded-3 overflow-hidden" style="border-radius: 4px">
+
+        <thead style="background-color: #858585; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 400; outline: none;">
+            <tr>
+                <th scope="col">N° Supervisor</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Sede</th>
+                <th scope="col">Activo</th>
+             </tr>
+        </thead>
+        <tbody>
+            @foreach (var supervisor in Model)
+            {
+                <tr style="font-family: Montserrat; font-weight: 400">
+                    <td>
+                        @supervisor.supervisor_id
+                    </td>
+                    <td>
+                        @supervisor.s_name
+                    </td>
+                    <td>
+                        @supervisor.s_area
+                    </td>
+                   
+                    @if (supervisor.s_active.Equals("Si"))
+                    {
+                        <td class="rounded-3" style="background-color: #46d460; font-weight: 700; color: white">
+
+
+                            @supervisor.s_active
+                        </td>
+                    }
+                    else
+                    {
+                        <td class="rounded-3" style="background-color: #ff5555; font-weight: 700; color: white">
+                            @supervisor.s_active
+                        </td>
+
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a class="btn mt-4 w-50" href="~/Principal/Supervisors_view" style=" background-color: #ff5555; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+        Regresar
+    </a>
+</div>

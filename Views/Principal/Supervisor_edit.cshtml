@@ -1,0 +1,118 @@
+﻿@model AplicacionPoe.Models.supervisorO
+@{
+    ViewBag.Title = "supervisor_edit";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+<style>
+    .buttonRegister:hover {
+        opacity: 0.8;
+    }
+
+    .buttonRegister:hover {
+        opacity: 0.8;
+    }
+
+
+    .buttonBack:hover {
+        opacity: 0.8;
+    }
+
+    .buttonBack:hover {
+        opacity: 0.8;
+    }
+</style>
+<div class="mt-5">
+    <div class="text-center mt-5 mb-2" style="font-family: 'Montserrat'; font-size: x-large; font-weight: 600; color: #8b17ff ">
+        Supervisor
+    </div>
+</div>
+<div class="d-flex justify-content-center align-items-center">
+
+    <div class="bg-white p-5 rounded-5 align-items-center text-center" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); width: 50rem">
+        <div class="align-items-center text-center">
+            <form action="@Url.Action("Supervisor_edit","Principal") " method="post">
+                <div class="mb-3">
+                    <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500">
+                        N° Supervisor
+                    </p>
+                    <div style="font-family: 'Montserrat' ; font-size: small; font-weight: 400; color: red">
+                    @Html.ValidationMessageFor(d => d.supervisor_id)
+
+                </div>
+                    
+                    <input class="text-center w-100 align-items-center mb-3" value="@Html.DisplayFor(d=>d.supervisor_id)"  name="supervisor_id" type="number"
+                           style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500; border-radius: 1em; border: 0px solid; outline-color: #1e90ff; height: 3em" readonly/>
+                </div>
+
+                <div class="mb-3">
+                    <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500">
+                        Nombre de Supervisor
+                    </p>
+                    <input class="text-center w-100 align-items-center mb-3" name="s_name" type="text" value="@Html.DisplayFor(d=>d.s_name)"
+                           style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500; border-radius: 1em; border: 0px solid; outline-color: #1e90ff; height: 3em" />
+                </div>
+                <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500">
+                    Sede
+                </p>
+
+                <div class="mb-3 d-flex align-items-center justify-content-center text-center">
+
+                    <select class="form-select" name="s_area" style="background-color: #ddeeff; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                        font-weight: 500; border-radius: .5em; border: 0px solid; outline-color: #1e90ff; height: 2em; font-weight: 500;">
+                        <option value=" @Html.DisplayFor(d => d.s_area) "> @Html.DisplayFor(d => d.s_area)</option>
+                        <option value="Guadalajara">Guadalajara</option>
+                        <option value="Puerto Vallarta">Puerto Vallarta</option>
+                        <option value="Los Cabos">Los Cabos</option>
+                        <option value="Guanajuato">Guanajuato</option>
+                        <option value="Cancun">Cancún</option>
+                    </select>
+
+
+                </div>
+                <p class="mb-3" style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500">
+                    Activo
+                </p>
+                <div class="mb-3 d-flex align-items-center justify-content-center text-center">
+
+                    <select class="form-select" name="s_active" style="background-color: #ddeeff; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                        font-weight: 500; border-radius: .5em; border: 0px solid; outline-color: #1e90ff; height: 2em "
+                            font-weight: 500;>
+                        <option value="@Html.DisplayFor(d=>d.s_active)">@Html.DisplayFor(d => d.s_active)</option>
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+
+                    </select>
+
+
+                </div>
+
+                @if (ViewData["alertMessageRegister"] != null)
+                {
+                    <div class="mt-5 text-center w-100 align-items-center">
+                        <div class="label" style="background-color: #ff5555; font-family: 'Montserrat'; font-size: small; font-weight: 400 ">
+                            @ViewData["alertMessageRegister"]
+                        </div>
+                    </div>
+
+                }
+
+                <div class="mt-5">
+                    <input class="buttonRegister btn text-center align-items-center" type="submit" value="Actualizar"
+                           style="background-color: #1e90ff; color: white; font-family: 'Montserrat';
+                       font-size: small; font-weight: 700; border-radius: 2em; outline: none; height: 3em">
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+

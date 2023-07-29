@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="096b73d06152480d881be6ff72f0e7df" Name="Diagram1">
+        <EntityTypeShape EntityType="CompanyModel.client" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.employee" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.service1" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.supervisor" Width="1.5" PointX="7.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.sysdiagrams" Width="1.5" PointX="9.375" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="CompanyModel.FK__service1__client__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK__service1__employ__5AEE82B9" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

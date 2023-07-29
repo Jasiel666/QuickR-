@@ -1,0 +1,70 @@
+﻿@model AplicacionPoe.Models.service12
+@{
+    ViewBag.Title = "Service_delete_view";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+
+
+<div class="d-flex justify-content-center align-items-center mt-5 min-vh-100" style="background-color: #fff;">
+    <div class="bg-dark p-5 rounded-5 align-items-center" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); width: 32rem">
+
+        <div class="text-center" style="font-family: 'Montserrat'; font-size: large; font-weight: 600; color: #fff ">
+            ¿Eliminar Servicio?
+        </div>
+        <div style="font-family: 'Montserrat'; font-size: small; font-weight: 600;">
+            <div class="text-center" style="color: #ececec ">
+                <div class="mt-4">
+                    <p>
+                        Id Servicio: @Html.DisplayFor(d => d.service_id)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Fecha: @Html.DisplayFor(d => d.service_date)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Empleado que atendió: @Html.DisplayFor(d => d.employee_attend)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Cliente atendido:  @Html.DisplayFor(d => d.client_attended)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                       Actividad:  @Html.DisplayFor(d => d.activity)
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        @{
+            var service = Model.service_id;
+        }
+
+        <div class="text-center">
+
+            <a class="btn mt-4 w-50" href="~/Principal/Service_delete/@service" style=" background-color: #1e90ff; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+                Si
+            </a>
+
+            <a class="btn mt-4 w-50" href="~/Principal/Service_view" style=" background-color: #ff5555; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+                No
+            </a>
+
+
+        </div>
+
+
+    </div>
+</div>
+

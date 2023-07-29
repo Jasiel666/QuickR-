@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CompanyModelStoreContainer" CdmEntityContainer="CompanyEntities6">
+    <EntitySetMapping Name="client">
+      <EntityTypeMapping TypeName="CompanyModel.client">
+        <MappingFragment StoreEntitySet="client">
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="client_name" ColumnName="client_name" />
+          <ScalarProperty Name="client_phone" ColumnName="client_phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employee">
+      <EntityTypeMapping TypeName="CompanyModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="e_name" ColumnName="e_name" />
+          <ScalarProperty Name="e_admission_date" ColumnName="e_admission_date" />
+          <ScalarProperty Name="e_active" ColumnName="e_active" />
+          <ScalarProperty Name="e_supervisor" ColumnName="e_supervisor" />
+          <ScalarProperty Name="e_observation" ColumnName="e_observation" />
+          <ScalarProperty Name="e_certificate" ColumnName="e_certificate" />
+          <ScalarProperty Name="e_image" ColumnName="e_image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="service1">
+      <EntityTypeMapping TypeName="CompanyModel.service1">
+        <MappingFragment StoreEntitySet="service1">
+          <ScalarProperty Name="service_id" ColumnName="service_id" />
+          <ScalarProperty Name="service_date" ColumnName="service_date" />
+          <ScalarProperty Name="employee_attend" ColumnName="employee_attend" />
+          <ScalarProperty Name="client_attended" ColumnName="client_attended" />
+          <ScalarProperty Name="activity" ColumnName="activity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="supervisor">
+      <EntityTypeMapping TypeName="CompanyModel.supervisor">
+        <MappingFragment StoreEntitySet="supervisor">
+          <ScalarProperty Name="supervisor_id" ColumnName="supervisor_id" />
+          <ScalarProperty Name="s_name" ColumnName="s_name" />
+          <ScalarProperty Name="s_area" ColumnName="s_area" />
+          <ScalarProperty Name="s_active" ColumnName="s_active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="CompanyModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

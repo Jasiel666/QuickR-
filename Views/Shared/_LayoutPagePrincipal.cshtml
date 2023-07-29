@@ -1,0 +1,103 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <style>
+
+        #a1 {
+            background-image: linear-gradient( to right, #54b3d6, #54b3d6 50%, #fff 50% );
+            background-size: 200% 100%;
+            background-position: -100%;
+            display: inline-block;
+            padding: 5px 0;
+            position: relative;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all 0.3s ease-in-out;
+        }
+
+            #a1:before {
+                content: '';
+                background: #54b3d6;
+                display: block;
+                position: absolute;
+                bottom: -3px;
+                left: 0;
+                width: 0;
+                height: 3px;
+                transition: all 0.3s ease-in-out;
+            }
+
+            #a1:hover {
+                background-position: 0;
+            }
+
+                #a1:hover::before {
+                    width: 100%;
+                }
+    </style>
+
+    <div class="navbar navbar-fixed-top navbar-dark bg-dark mb-5 pt-lg-5 pb-lg-5 pb-md-2 pb-md-2" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); border: none; ">
+        <div class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" style="text-align: left; position: fixed">
+            <img src="~/Content/Images/LogoQ.png" style="height: 80px; width: 88px; margin-left: 5rem;" />
+        </div>
+        <div class="container" style="float: right">
+            <ul style="display: inline; list-style-type: none;">
+
+                <li style="float: left; padding-right: 4rem">
+                    <a id="a1" href="@Url.Action("Employee_view","Principal")" style="font-family: 'Montserrat'; font-size: small; font-weight: 400;  text-decoration: none; ">
+                        Empleados
+                    </a>
+
+                </li>
+
+                <li style="float: left; padding-right: 4rem">
+                    <a id="a1" href="@Url.Action("Supervisors_view","Principal")" style="font-family: 'Montserrat'; font-size: small; font-weight: 400;  text-decoration: none; ">
+                        Supervisores
+                    </a>
+
+                </li>
+
+                <li style="float: left; padding-right: 4rem">
+                    <a id="a1" href="@Url.Action("Service_view","Principal")" style="font-family: 'Montserrat'; font-size: small; font-weight: 400;  text-decoration: none; ">
+                        Servicios
+                    </a>
+
+                </li>
+                <li style="float: left; padding-right: 4rem">
+                    <a id="a1" href="@Url.Action("Client_view","Principal")" style="font-family: 'Montserrat'; font-size: small; font-weight: 400;  text-decoration: none; ">
+                        Clientes
+                    </a>
+
+                </li>
+
+                <li style="float: left; padding-right: 4rem">
+                    <a id="a1" href="@Url.Action("Login","Home")" style="font-family: 'Montserrat'; font-size: small; font-weight: 400; text-decoration: none;">
+                        Salir
+                    </a>
+
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+    <div class="container mt-5" style="margin-left: auto; margin-right: auto">
+        <div>
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

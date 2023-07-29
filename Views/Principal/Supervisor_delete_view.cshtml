@@ -1,0 +1,61 @@
+﻿@model AplicacionPoe.Models.supervisorO
+@{
+    ViewBag.Title = "Supervisor_delete_view";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+<div class="d-flex justify-content-center align-items-center mt-5 min-vh-100" style="background-color: #fff;">
+    <div class="bg-dark p-5 rounded-5 align-items-center" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); width: 32rem">
+
+        <div class="text-center" style="font-family: 'Montserrat'; font-size: large; font-weight: 600; color: #fff ">
+            ¿Eliminar Supervisor?
+        </div>
+        <div style="font-family: 'Montserrat'; font-size: small; font-weight: 600;">
+            <div class="text-center" style="color: #ececec ">
+                <div class="mt-4">
+                    <p>
+                        Id: @Html.DisplayFor(d => d.supervisor_id)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Nombre: @Html.DisplayFor(d => d.s_name)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Area: @Html.DisplayFor(d => d.s_area)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Activo:  @Html.DisplayFor(d => d.s_active)
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        @{
+            var supervisor = Model.supervisor_id;
+        }
+
+    <div class="text-center">
+
+        <a class="btn mt-4 w-50" href="~/Principal/Supervisor_delete/@supervisor" style=" background-color: #1e90ff; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+            Si
+        </a>
+
+        <a class="btn mt-4 w-50" href="~/Principal/Supervisor_view" style=" background-color: #ff5555; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+            No
+        </a>
+
+
+    </div>
+
+
+    </div>
+</div>

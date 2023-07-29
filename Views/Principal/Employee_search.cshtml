@@ -1,0 +1,74 @@
+﻿
+
+@model List<AplicacionPoe.Models.employeeO>
+
+@{
+    ViewBag.Title = "Search Results";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+
+<div class="mt-5">
+    <table class="table table-striped table-hover mt-3 rounded rounded-3 overflow-hidden" style="border-radius: 4px">
+
+        <thead style="background-color: #858585; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 400; outline: none;">
+            <tr>
+                <th scope="col">N° Empleado</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Fecha de ingreso</th>
+                <th scope="col">Supervisor</th>
+                <th scope="col">Constancia</th>
+                <th scope="col">Observaciones</th>
+                <th scope="col">Activo</th>
+               
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr style="font-family: Montserrat">
+                    <td>
+                        <a href="~/Principal/Employee_profile_view/@employee.employee_id"> @employee.employee_id </a>
+                    </td>
+                    <td>
+                        @employee.e_name
+                    </td>
+                    <td>
+                        @employee.e_admission_date.ToString().Substring(0, 10)
+                    </td>
+                    <td>
+                        @employee.e_supervisor
+                    </td>
+                    <td>
+                        @employee.e_certificate
+                    </td>
+                    <td>
+                        @employee.e_observation
+                    </td>
+                    @if (employee.e_active.Equals("Si"))
+                    {
+                        <td class="rounded-3" style="background-color: #46d460; font-weight: 700; color: white">
+
+
+                            @employee.e_active
+                        </td>
+                    }
+                    else
+                    {
+                        <td class="rounded-3" style="background-color: #ff5555; font-weight: 700; color: white">
+
+
+                            @employee.e_active
+                        </td>
+
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a class="btn mt-4 w-50 align-items-center" href="~/Principal/Employee_view" style=" background-color: #ff5555; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+        Regresar
+    </a>
+
+</div>

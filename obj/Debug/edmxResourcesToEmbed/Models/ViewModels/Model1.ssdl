@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="client_id" />
+    </Key>
+    <Property Name="client_id" Type="int" Nullable="false" />
+    <Property Name="c_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="c_state" Type="nvarchar" MaxLength="50" />
+    <Property Name="c_city" Type="nvarchar" MaxLength="50" />
+    <Property Name="c_adress" Type="nvarchar" MaxLength="50" />
+    <Property Name="c_phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="c_postcode" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="employee_id" />
+    </Key>
+    <Property Name="employee_id" Type="int" Nullable="false" />
+    <Property Name="e_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="e_admission_date" Type="date" Nullable="false" />
+    <Property Name="e_active" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="e_supervisor" Type="int" Nullable="false" />
+    <Property Name="e_observation" Type="nvarchar(max)" />
+    <Property Name="e_certificate" Type="nvarchar" MaxLength="15" />
+    <Property Name="e_image" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="service1">
+    <Key>
+      <PropertyRef Name="service_id" />
+    </Key>
+    <Property Name="service_id" Type="int" Nullable="false" />
+    <Property Name="service_date" Type="date" />
+    <Property Name="employee_attend" Type="int" />
+    <Property Name="client_attended" Type="int" />
+    <Property Name="activity" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="supervisor">
+    <Key>
+      <PropertyRef Name="supervisor_id" />
+    </Key>
+    <Property Name="supervisor_id" Type="int" Nullable="false" />
+    <Property Name="s_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="s_area" Type="nvarchar" MaxLength="50" />
+    <Property Name="s_active" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__service1__client__5BE2A6F2">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="service1" Type="Self.service1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="client_id" />
+      </Principal>
+      <Dependent Role="service1">
+        <PropertyRef Name="client_attended" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__service1__employ__5AEE82B9">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="service1" Type="Self.service1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="employee_id" />
+      </Principal>
+      <Dependent Role="service1">
+        <PropertyRef Name="employee_attend" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CompanyModelStoreContainer">
+    <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="service1" EntityType="Self.service1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="supervisor" EntityType="Self.supervisor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__service1__client__5BE2A6F2" Association="Self.FK__service1__client__5BE2A6F2">
+      <End Role="client" EntitySet="client" />
+      <End Role="service1" EntitySet="service1" />
+    </AssociationSet>
+    <AssociationSet Name="FK__service1__employ__5AEE82B9" Association="Self.FK__service1__employ__5AEE82B9">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="service1" EntitySet="service1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

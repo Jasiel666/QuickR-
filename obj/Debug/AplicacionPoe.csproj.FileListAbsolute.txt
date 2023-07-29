@@ -1,0 +1,291 @@
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\AplicacionPoe.dll.config
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\AplicacionPoe.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\AplicacionPoe.pdb
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\csc.exe
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\csc.exe.config
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\csc.rsp
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\csi.exe
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\csi.exe.config
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\csi.rsp
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.AppContext.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Console.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.IO.Compression.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Net.Http.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.ValueTuple.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\vbc.exe
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\vbc.exe.config
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\vbc.rsp
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\Antlr3.Runtime.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\Newtonsoft.Json.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Helpers.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Mvc.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Optimization.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Razor.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.WebPages.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\WebGrease.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Helpers.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Mvc.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Optimization.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Razor.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.WebPages.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\Newtonsoft.Json.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\Antlr3.Runtime.pdb
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\es\System.Web.Razor.resources.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\obj\Debug\AplicacionPoe.csproj.AssemblyReference.cache
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\obj\Debug\AplicacionPoe.csproj.CoreCompileInputs.cache
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\obj\Debug\AplicacionPoe.csproj.CopyComplete
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\obj\Debug\AplicacionPoe.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\obj\Debug\AplicacionPoe.pdb
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\AjaxControlToolkit.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Net.Http.Formatting.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Http.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Net.Http.Formatting.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Web.Http.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\EntityFramework.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\EntityFramework.SqlServer.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Data.SqlClient.dll
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\EntityFramework.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\EntityFramework.SqlServer.xml
+C:\Users\Jaasiel\Desktop\Nueva carpeta\AplicacionPoe\bin\System.Data.SqlClient.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\AplicacionPoe.dll.config
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\AplicacionPoe.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\AplicacionPoe.pdb
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\AjaxControlToolkit.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\WebGrease.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Data.SqlClient.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\es\System.Web.Razor.resources.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\obj\Debug\AplicacionPoe.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\QuickR_aplicacion\obj\Debug\AplicacionPoe.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\QuickR_aplicacion\obj\Debug\AplicacionPoe.csproj.CopyComplete
+C:\Users\Admin\Desktop\QuickR_aplicacion\obj\Debug\AplicacionPoe.dll
+C:\Users\Admin\Desktop\QuickR_aplicacion\obj\Debug\AplicacionPoe.pdb
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\AplicacionPoe.dll.config
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\AplicacionPoe.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\AplicacionPoe.pdb
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\csc.exe
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\csc.exe.config
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\csc.rsp
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\csi.exe
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\csi.exe.config
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\csi.rsp
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.AppContext.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Console.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.IO.Compression.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Net.Http.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.ValueTuple.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\vbc.exe
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\vbc.exe.config
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\vbc.rsp
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\AjaxControlToolkit.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\Antlr3.Runtime.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\EntityFramework.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\EntityFramework.SqlServer.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\Newtonsoft.Json.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Data.SqlClient.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Net.Http.Formatting.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Helpers.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Http.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Mvc.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Optimization.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Razor.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.WebPages.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\WebGrease.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\EntityFramework.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\EntityFramework.SqlServer.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Data.SqlClient.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Net.Http.Formatting.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Http.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Helpers.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Mvc.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Optimization.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.Razor.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.WebPages.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\Newtonsoft.Json.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\Antlr3.Runtime.pdb
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\es\System.Web.Razor.resources.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\obj\Debug\AplicacionPoe.csproj.AssemblyReference.cache
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\obj\Debug\AplicacionPoe.csproj.CoreCompileInputs.cache
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\obj\Debug\AplicacionPoe.csproj.CopyComplete
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\obj\Debug\AplicacionPoe.dll
+C:\Users\Jaasiel\Desktop\APLICACION FINAL\aplicacion final\obj\Debug\AplicacionPoe.pdb

@@ -1,0 +1,85 @@
+﻿@model AplicacionPoe.Models.employeeO
+@{
+    ViewBag.Title = "Employee_delete_view";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+<div class="d-flex justify-content-center align-items-center mt-5 min-vh-100" style="background-color: #fff;">
+    <div class="bg-dark p-5 rounded-5 align-items-center" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); width: 32rem">
+
+        <div class="text-center" style="font-family: 'Montserrat'; font-size: large; font-weight: 600; color: #fff ">
+            ¿Eliminar Empleado?
+        </div>
+        <div style="font-family: 'Montserrat'; font-size: small; font-weight: 600;">
+            <div style="color: #ececec ">
+                <div class="mt-4">
+                    <p>
+                        Id: @Html.DisplayFor(d => d.employee_id)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Nombre: @Html.DisplayFor(d => d.e_name)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Dia de admision: @Html.DisplayFor(d => d.e_admission_date)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Supervisor:  @Html.DisplayFor(d => d.e_supervisor)
+                    </p>
+                </div>
+                <div class="mt-2">
+                    <p>
+                        Constancia: @Html.DisplayFor(d => d.e_certificate)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Observaciones: @Html.DisplayFor(d => d.e_observation)
+                    </p>
+                </div>
+
+                <div class="mt-2">
+                    <p>
+                        Activo:  @Html.DisplayFor(d => d.e_active)
+                    </p>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+        @{
+            var employee = Model.employee_id;
+        }
+
+        <div class="text-center">
+
+            <a class="btn mt-4 w-50" href="~/Principal/Employee_delete/@employee" style=" background-color: #1e90ff; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+                Si
+            </a>
+
+            <a class="btn mt-4 w-50" href="~/Principal/Employee_view" style=" background-color: #ff5555; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+                No
+            </a>
+
+
+        </div>
+
+
+    </div>
+</div>
+

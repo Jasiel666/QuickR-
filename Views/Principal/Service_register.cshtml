@@ -1,0 +1,119 @@
+﻿@model AplicacionPoe.Models.service12
+
+@{
+    ViewBag.Title = "Service_register";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+<style>
+    .buttonRegister:hover {
+        opacity: 0.8;
+    }
+
+    .buttonRegister:hover {
+        opacity: 0.8;
+    }
+
+
+    .buttonBack:hover {
+        opacity: 0.8;
+    }
+
+    .buttonBack:hover {
+        opacity: 0.8;
+    }
+</style>
+
+    <div class="mt-5">
+        <div class="text-center mt-5 mb-2" style="font-family: 'Montserrat'; font-size: x-large; font-weight: 600; color: #8b17ff ">
+            Servicios
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+
+        <div class="bg-white p-5 rounded-5 align-items-center text-center" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); width: 50rem">
+            <div class="align-items-center text-center">
+                <form action="@Url.Action("Service_register","Principal") " method="post">
+                    <div class="mb-3">
+
+
+                        <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500">
+                            N° Servicio
+
+                        </p>
+
+                        <input class="text-center w-100 align-items-center mb-3" name="service_id" type="number"
+                               style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500; border-radius: 1em; border: 0px solid; outline-color: #1e90ff; height: 3em" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500">
+                            Fecha de servicio
+                        </p>
+
+                        <input class="w-100" type="date" name="service_date" style="background-color: #ddeeff; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                        font-weight: 500; border-radius: .5em; border: 0px solid; outline-color: #1e90ff; height: 2em ">
+
+                    </div>
+                    <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500;">
+                        Empleado que atendió
+                    </p>
+
+                    <input class="text-center w-100 align-items-center mb-3" name="employee_attend" type="number"
+                           style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500; border-radius: 1em; border: 0px solid; outline-color: #1e90ff; height: 3em" />
+
+
+                    <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500;">
+                        Cliente atendido
+                    </p>
+                    <input class="text-center w-100 align-items-center mb-3" name="client_attended" type="number"
+                           style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500; border-radius: 1em; border: 0px solid; outline-color: #1e90ff; height: 3em" />
+
+
+                    <p style="color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500">
+                        Observaciones
+                    </p>
+
+                    <div class="mb-3 text-center" style="display: flex; align-items: center">
+                        <div class="form-group w-100" style="color: #4e4f51; font-family: 'Montserrat'; font-size: small; display: flex; align-items: center; text-align: center;
+                             font-weight: 500; padding-left: 8rem">
+                            <label for="activity" name="activity" style="background-color: #4ca6ff;"></label>
+                            <textarea style="background-color: #edf0f7; border-radius: .5em; border: 0px solid; " class="form-control" name="activity" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+
+
+
+                    @if (ViewData["alertMessageRegister"] != null)
+                    {
+                        <div class="mt-5 text-center w-100 align-items-center">
+                            <div class="label" style="background-color: #ff5555; font-family: 'Montserrat'; font-size: small; font-weight: 400 ">
+                                @ViewData["alertMessageRegister"]
+                            </div>
+                        </div>
+
+                    }
+
+                    <div class="mt-5">
+                        <input class="bottonRegister btn text-center align-items-center" type="submit" value="Registrar"
+                               style="background-color: #1e90ff; color: white; font-family: 'Montserrat';
+                       font-size: small; font-weight: 700; border-radius: 2em; outline: none; height: 3em">
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+

@@ -1,0 +1,109 @@
+﻿@model List<AplicacionPoe.Models.supervisorO>
+@{
+    ViewBag.Title = "Supervisores";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+<body>
+
+    <style>
+        .buttonAdd:hover {
+            opacity: 0.8;
+        }
+    </style>
+
+    <div class="container mt-md-5 mt-sm-5 mt-5">
+
+        <ul style="display: inline; list-style-type: none;">
+            <li style="float: left;">
+                <input class="buttonAdd btn" type="button" value="Agregar" style="background-color: #1e90ff; outline: none; color: white; border-radius: 1em; color: white;
+                    font-family: 'Montserrat'; font-size: small; font-weight: 700" onclick="@("window.location.href='"+@Url.Action("Supervisors_register","Principal")+"'");">
+            </li>
+            <li style="float: right; padding-left: 14rem">
+
+                <form action="@Url.Action("Supervisor_search","principal")" method="get">
+                    <input type="text" name="searchQuery" placeholder="Busqueda por nombre..." style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500; border-radius: 1em; border: 0px solid; outline-color: #1e90ff; height: 3em">
+                    <button class="btn btn" style="background-color: #727272; color: white; font-family: Montserrat" type="submit">Buscar</button>
+                </form>
+            </li>
+
+        </ul>
+
+
+    </div>
+    <div class="container" style="margin-left: auto; margin-right: auto;">
+
+        <table class="table table-striped table-hover mt-3 rounded rounded-3 overflow-hidden" style="border-radius: 4px">
+            <thead style="background-color: #858585; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 400; outline: none; ">
+                <tr>
+                    <th scope="col">N° Supervisor</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Área</th>
+                    <th scope="col">Activo</th>
+                    <th scope="col">Opciones</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var supervisor in Model)
+                {
+
+                    <tr style=" font-family: 'Montserrat'; font-size: small;">
+                        <td>
+                            @supervisor.supervisor_id
+                        </td>
+                        <td>
+                            @supervisor.s_name
+                        </td>
+                        <td>
+                            @supervisor.s_area
+                        </td>
+                        @if (supervisor.s_active.Equals("Si"))
+                        {
+                            <td class="rounded-3" style="background-color: #46d460; font-weight: 700; color: white">
+                                @supervisor.s_active
+                            </td>
+
+                        }
+                        else
+                        {
+                            <td class="rounded-3" style="background-color: #ff5555; font-weight: 700; color: white">
+                                @supervisor.s_active
+                            </td>
+                         }
+
+                        <td>
+
+                            <a class="btn" href="~/Principal/Supervisor_edit/@supervisor.supervisor_id" style=" background-color: #b45bde; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                    <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                                </svg>
+                                <i class="bi bi-pen"></i>
+                                Editar
+                            </a>
+                        </td>
+                        <td>
+
+                            <a class="btn btn" href="~/Principal/Supervisor_delete_view/@supervisor.supervisor_id" style=" color: white; font-family: 'Montserrat'; font-size: small; background-color: #ff5555; font-weight: 700; border-radius: 1em; outline: none;" ;
+                               font-weight: 700; border-radius: 1em; outline: none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
+                                    <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z" />
+                                </svg>
+                                <i class="bi bi-trash"></i>
+                                Eliminar
+
+                            </a>
+
+
+                        </td>
+
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+</body>

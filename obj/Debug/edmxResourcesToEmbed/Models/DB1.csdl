@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="client_id" />
+    </Key>
+    <Property Name="client_id" Type="Int32" Nullable="false" />
+    <Property Name="c_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="c_state" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="c_city" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="c_adress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="c_phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="c_postcode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="service1" Relationship="Self.FK_service1_client_attended" FromRole="client" ToRole="service1" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="employee_id" />
+    </Key>
+    <Property Name="employee_id" Type="Int32" Nullable="false" />
+    <Property Name="e_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="e_admission_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="e_active" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="e_supervisor" Type="Int32" Nullable="false" />
+    <Property Name="e_observation" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="e_certificate" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="supervisor" Relationship="Self.FK_employee_e_supervisor" FromRole="employee" ToRole="supervisor" />
+    <NavigationProperty Name="service1" Relationship="Self.FK_service1_employee_attend" FromRole="employee" ToRole="service1" />
+  </EntityType>
+  <EntityType Name="service1">
+    <Key>
+      <PropertyRef Name="service_id" />
+    </Key>
+    <Property Name="service_id" Type="Int32" Nullable="false" />
+    <Property Name="service_date" Type="DateTime" Precision="0" />
+    <Property Name="employee_attend" Type="Int32" />
+    <Property Name="client_attended" Type="Int32" />
+    <Property Name="activity" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="client" Relationship="Self.FK_service1_client_attended" FromRole="service1" ToRole="client" />
+    <NavigationProperty Name="employee" Relationship="Self.FK_service1_employee_attend" FromRole="service1" ToRole="employee" />
+  </EntityType>
+  <EntityType Name="supervisor">
+    <Key>
+      <PropertyRef Name="supervisor_id" />
+    </Key>
+    <Property Name="supervisor_id" Type="Int32" Nullable="false" />
+    <Property Name="s_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="s_area" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="s_active" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="employee" Relationship="Self.FK_employee_e_supervisor" FromRole="supervisor" ToRole="employee" />
+  </EntityType>
+  <Association Name="FK_service1_client_attended">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="service1" Type="Self.service1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="client_id" />
+      </Principal>
+      <Dependent Role="service1">
+        <PropertyRef Name="client_attended" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_e_supervisor">
+    <End Role="supervisor" Type="Self.supervisor" Multiplicity="1" />
+    <End Role="employee" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supervisor">
+        <PropertyRef Name="supervisor_id" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="e_supervisor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_service1_employee_attend">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="service1" Type="Self.service1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="employee_id" />
+      </Principal>
+      <Dependent Role="service1">
+        <PropertyRef Name="employee_attend" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CompanyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="client" EntityType="Self.client" />
+    <EntitySet Name="employee" EntityType="Self.employee" />
+    <EntitySet Name="service1" EntityType="Self.service1" />
+    <EntitySet Name="supervisor" EntityType="Self.supervisor" />
+    <AssociationSet Name="FK_service1_client_attended" Association="Self.FK_service1_client_attended">
+      <End Role="client" EntitySet="client" />
+      <End Role="service1" EntitySet="service1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_e_supervisor" Association="Self.FK_employee_e_supervisor">
+      <End Role="supervisor" EntitySet="supervisor" />
+      <End Role="employee" EntitySet="employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_service1_employee_attend" Association="Self.FK_service1_employee_attend">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="service1" EntitySet="service1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

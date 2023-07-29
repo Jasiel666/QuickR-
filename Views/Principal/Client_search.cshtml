@@ -1,0 +1,43 @@
+﻿@model  List<AplicacionPoe.Models.clientO>
+@{
+    ViewBag.Title = "Client_search";
+    Layout = "~/Views/Shared/_LayoutPagePrincipal.cshtml";
+}
+
+<div class="mt-5">
+    <table class="table table-striped table-hover mt-3 rounded rounded-3 overflow-hidden" style="border-radius: 4px">
+
+        <thead style="background-color: #858585; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 400; outline: none;">
+            <tr>
+                <th scope="col">N° Cliente</th>
+                <th scope="col">Nombre Cliente</th>
+                <th scope="col">Número Telefónico</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var client in Model)
+            {
+                <tr style="font-family: Montserrat">
+
+                    <td>
+                        @client.client_id
+                    </td>
+                    
+                    <td>
+                        @client.client_name
+                    </td>
+                    <td>
+                        @client.client_phone
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a class="btn mt-4 w-50 align-items-center" href="~/Principal/Client_view" style=" background-color: #ff5555; color: white; font-family: 'Montserrat'; font-size: small; font-weight: 700; border-radius: 1em; outline: none;">
+        Regresar
+    </a>
+
+</div>

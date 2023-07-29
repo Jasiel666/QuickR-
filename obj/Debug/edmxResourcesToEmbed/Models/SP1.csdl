@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel_SP" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="spEntities1" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_employee_delete">
+      <Parameter Name="employee_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_employee_register">
+      <Parameter Name="employee_id" Mode="In" Type="Int32" />
+      <Parameter Name="e_name" Mode="In" Type="String" />
+      <Parameter Name="e_admission_date" Mode="In" Type="DateTime" />
+      <Parameter Name="e_active" Mode="In" Type="String" />
+      <Parameter Name="e_supervisor" Mode="In" Type="Int32" />
+      <Parameter Name="e_observation" Mode="In" Type="String" />
+      <Parameter Name="e_certificate" Mode="In" Type="String" />
+      <Parameter Name="registered1" Mode="InOut" Type="Boolean" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="d-flex justify-content-center align-items-center vh-100 mt-5" style="background-color: #b9dcff">
+    <div class="bg-white p-5 rounded-5 align-items-center" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); width: 32rem">
+
+        <div class="text-center" style="font-family: 'Montserrat'; font-size: x-large; font-weight: 600; color: #8a8d93 ">
+            Inicio de Sesión
+        </div>
+        <form action="@Url.Action("Login","Home")" method="post">
+            <div class="mt-4">
+
+                <div>
+                    <input class="mt-5 text-center w-100 align-items-center" name="UserLogin" type="text" placeholder="Usuario"
+                           style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat'; font-size: small;
+                           font-weight: 500; border-radius: 2em; border: 0px solid; outline-color: #1e90ff; height: 3em" />
+                </div>
+                <div>
+                    <input class="mt-5 text-center w-100 align-items-center" name="UserPassword" type="password" placeholder="Contraseña"
+                           style="background-color: #edf0f7; color: #4e4f51; font-family: 'Montserrat';
+                           font-size: small; font-weight: 500; border-radius: 2em; border: 0px solid; outline-color: #1e90ff; height: 3em" />
+                </div>
+            </div>
+
+            @if (ViewData["alertMessage"] != null)
+            {
+                <div class="mt-5 text-center w-100 align-items-center">
+                    <div class="label" style="background-color: #ff5555; font-family: 'Montserrat'; font-size: small; font-weight: 400 ">
+                        @ViewData["alertMessage"]
+                    </div>
+                </div>
+
+            }
+
+            <div class="mt-5">
+                <input class="botonIngresar btn text-center w-100 align-items-center" type="submit" value="Ingresar"
+                       style="background-color: #1e90ff; color: white; font-family: 'Montserrat';
+                       font-size: small; font-weight: 700; border-radius: 2em; outline: none; height: 3em">
+            </div>
+           
+            <div class="text-center mt-3">
+                <a href="@Url.Action("Register","Home")" style=" color: #5b6a9b; font-family: 'Montserrat'; font-size: small; font-weight: 700;">
+                    Registrate
+                </a>
+            </div>
+        </form>
+
+    </div>
+</div>
