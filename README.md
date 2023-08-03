@@ -5,7 +5,7 @@ Application made with C# asp.net for the Human Resources area of ​​QuickShin
 <p>Download Zip</p>
 <p>Extract Winrar Files</p>
 <p>Click on AplicacionPoe.sln</p>
-<p>Open with Microsoft Visual Studio>
+<p>Open with Microsoft Visual Studio<p>
 <p>Execute</p>
 
 <h1>Project Video</h1>
