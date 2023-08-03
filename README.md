@@ -1,5 +1,5 @@
 # QuickR-
-Application made with C# asp.net for the Human Resources area of ​​QuickShine, where employees, supervisors, services and clients can be managed through a CRUD.
+Application made with C# asp.net for the Human Resources area of ​​QuickShine, where employees, supervisors, services and clients data can be managed through a CRUD.
 <h1>Instructions</h1>
 
 <p>Download Zip</p>
