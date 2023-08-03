@@ -10,8 +10,6 @@ namespace AplicacionPoe.Models
     {
       
         public int employee_id { get; set; }
-
-       
         public string e_name { get; set; }
 
        
